@@ -1,0 +1,9 @@
+node { 
+        stage('Test') { 
+        echo 'running build stage...' 
+        script {
+            apicall()
+        }
+    }
+
+}
